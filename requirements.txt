@@ -1,0 +1,8 @@
+streamlit
+pandas
+google-generativeai
+scikit-learn
+joblib
+python-docx
+PyPDF2
+nltk

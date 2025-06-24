@@ -1,0 +1,13 @@
+# .streamlit/config.toml
+
+[theme]
+primaryColor="#6A0DAD" # A nice purple, for example
+backgroundColor="#F0F2F6" # A light grey background
+secondaryBackgroundColor="#FFFFFF" # Background for elements like sidebar, expanders
+textColor="#262730" # Main text color
+font="sans serif" # Options: "sans serif", "serif", "monospace"
+
+# You can also set specific colors for widgets, but the above are the main ones.
+# For example:
+# [ui]
+# hideTopBar = true # Hides the "Fork me on Github" ribbon if you want
