@@ -44,17 +44,21 @@ A smart Streamlit web app that classifies resumes into job categories using a tr
 
 ---
 ## 📁 Repository Structure
+```markdown
+```
 resume-classification/
-├── app.py
-├── utils.py
-├── requirements.txt
-├── w2_gemini_summary+features.ipynb
-├── saved_models/
+├── app.py                        # Main Streamlit application
+├── utils.py                      # Helper functions (text cleaning, API calls)
+├── requirements.txt              # List of Python dependencies
+├── w2_gemini_summary+features.ipynb  # Notebook for model training & feature engineering
+├── saved_models/                 # Folder containing saved model artifacts
 │   ├── svm_model_pipeline.joblib
 │   ├── tfidf_vectorizer.joblib
 │   └── label_encoder.joblib
-└── .streamlit/
+└── .streamlit/                   # Streamlit secrets config
     └── secrets.toml
+```
+```
 
 ## 🚀 Quick Start
 
