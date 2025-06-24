@@ -43,6 +43,18 @@ A smart Streamlit web app that classifies resumes into job categories using a tr
 - **Persistence**: Joblib  
 
 ---
+## 📁 Repository Structure
+resume-classification/
+├── app.py
+├── utils.py
+├── requirements.txt
+├── w2_gemini_summary+features.ipynb
+├── saved_models/
+│   ├── svm_model_pipeline.joblib
+│   ├── tfidf_vectorizer.joblib
+│   └── label_encoder.joblib
+└── .streamlit/
+    └── secrets.toml
 
 ## 🚀 Quick Start
 
@@ -55,3 +67,9 @@ venv\Scripts\activate
 # On macOS/Linux:
 source venv/bin/activate
 pip install -r requirements.txt
+
+
+
+
+
+
