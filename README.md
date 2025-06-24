@@ -45,7 +45,7 @@ A smart Streamlit web app that classifies resumes into job categories using a tr
 ---
 ## 📁 Repository Structure
 ```markdown
-```
+
 resume-classification/
 ├── app.py                        # Main Streamlit application
 ├── utils.py                      # Helper functions (text cleaning, API calls)
@@ -57,7 +57,7 @@ resume-classification/
 │   └── label_encoder.joblib
 └── .streamlit/                   # Streamlit secrets config
     └── secrets.toml
-```
+
 ```
 
 ## 🚀 Quick Start
