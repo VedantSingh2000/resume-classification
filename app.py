@@ -132,7 +132,7 @@ if analyze_button:
         try:
             with st.spinner("⚙️ Configuring Gemini AI..."):
                 genai.configure(api_key=api_key_input)
-                st.session_state.gemini_model_instance = genai.GenerativeModel('gemini-1.5-flash')
+                st.session_state.gemini_model_instance = genai.GenerativeModel('gemini-3-flash-preview')
                 st.session_state.current_key_used_for_gemini = api_key_input
         except Exception as e:
             st.error(f"🚫 Error configuring Gemini API: {e}. Please check your API key.")
